@@ -11,3 +11,8 @@ spec:
     description: "Jenkins Operator repository"
     repositoryBranch: master
     repositoryUrl: https://github.com/shinka81/jenkins-operator.git
+  - id: docker-build
+    targets: "cicd/pipelines/docker/docker.jenkins"
+    description: "Testing docker builds"
+    repositoryBranch: master
+    repositoryUrl: https://github.com/shinka81/jenkins-operator.git
